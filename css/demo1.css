@@ -1,6 +1,6 @@
 .demo-1 {
 	--color-text: #fff;
-	--color-bg: #000;
+	--color-bg: #0a192f;
 	--color-link: #fff;
 	--color-link-hover: #507cb5;
 	--color-info: #507cb5;
@@ -9,13 +9,25 @@
 	--color-subtitle-bg: #507cb5;
 }
 
+header {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -40px;
+}
+
 .introduction {
 	font-family: "Comfortaa", cursive;
 	font-size: 1.2em;
 	color: #64ffda;
 	position:relative;
 	left:-157px;
-	top:-350px;
+	top:-300px;
 	text-align:left;
 }
 
@@ -42,7 +54,7 @@
 	color: #8892b0;
 	position:relative;
 	left:-160px;
-	top:-170px;
+	top:-120px;
 	line-height: 1;
 	margin: 0;
 	text-align: left;
@@ -59,7 +71,7 @@
 	color: #8892b0;
 	position:relative;
 	left:-160px;
-	top:-100px;
+	top:-40px;
 	line-height: 1;
 	margin: 0;
 	text-align: left;
