@@ -247,14 +247,14 @@
                 borderRadius: 100,
                 color       : 'orange',
                 colorPast   : 'green',
-                colorOff    : 'grey'
+                colorOff    : '#ccd6f6'
             },
             line : {
                 height      : 30,
                 width       : 3,
                 color       : 'orange',
                 colorPast   : 'green',
-                colorOff    : 'grey',
+                colorOff    : '#ccd6f6',
             },
             sections : [
                 [ '#anchor-1', 'fas fa-info' ],

@@ -159,6 +159,7 @@ main {
 
 .demo {
 	margin: 0 0.15em;
+	font-family: 'PT Serif', serif;
 }
 
 .demo:hover,
@@ -203,9 +204,9 @@ a.demo--current {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
+	align-items: left;
+	justify-content: left;
+	align-content: left;
 }
 
 .scene {

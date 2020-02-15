@@ -10,34 +10,48 @@
 }
 
 .content__title {
-	font-family: 'Playfair Display', serif;
-	font-size: 10vw;
-	font-weight: normal;
-	color: var(--color-title);
-	text-align: center;
-	margin: 0;
+	font-family: 'Montserrat', serif;
+	font-size: 4em;
+	font-weight: 600;
+	color: #ccd6f6;
+	text-align: left;
+	/* margin: 10px 0 40px; */
+	/* left: 50; */
+	position:relative;
+	left:-150px;
+	top:-120px;
 	pointer-events: none;
+	/* padding-right: 100; */
+	/* padding: 0.45em 0.5em; */
 }
 
 .content__subtitle {
-	font-size: 1.25em;
-	background: var(--color-subtitle-bg);
-	color: var(--color-subtitle);
-	padding: 0.45em 0.5em;
+	font-family: 'Montserrat', serif;
+	font-size: 4em;
+	font-weight: 600;
+	color: #8892b0;
+	position:relative;
+	left:-150px;
+	top:-170px;
 	line-height: 1;
 	margin: 0;
-	letter-spacing: 0.5em;
-	text-indent: 0.5em;
-	font-weight: bold;
-	text-transform: uppercase;
+	text-align: left;
+	/* letter-spacing: 0.5em; */
+	/* text-indent: 0.5em; */
+	/* font-weight: bold; */
+	/* text-transform: uppercase; */
 }
 
 @media screen and (max-width: 55em) {
 	.content__title {
-		font-size: 3em;
+		font-size: 5em;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
 	}
 	.content__subtitle {
-		font-size: 0.85em;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 5em;
+		font-weight: 600;
 	}
 }
 

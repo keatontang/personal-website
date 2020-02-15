@@ -1,9 +1,10 @@
 var canvas = document.querySelector('canvas');
 var width = canvas.offsetWidth,
     height = canvas.offsetHeight;
+    console.log(canvas.offsetWidth, canvas.offsetHeight,)
 
 var colors = [
-    new THREE.Color(0x3c91ff),
+    new THREE.Color(0x64ffda),
     new THREE.Color(0x96789f),
     new THREE.Color(0x535353)];
 
@@ -13,7 +14,7 @@ var renderer = new THREE.WebGLRenderer({
 });
 renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1);
 renderer.setSize(width, height);
-renderer.setClearColor(0x000000);
+renderer.setClearColor(0x0a192f);
 
 var scene = new THREE.Scene();
 
@@ -22,7 +23,7 @@ raycaster.params.Points.threshold = 6;
 
 
 var camera = new THREE.PerspectiveCamera(50, width / height, 0.1, 2000);
-camera.position.set(0, 0, 350);
+camera.position.set(-150, 0, 400);
 
 var galaxy = new THREE.Group();
 scene.add(galaxy);
