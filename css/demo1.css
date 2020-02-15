@@ -30,6 +30,11 @@ header {
 	font-size: 1em;
 }
 
+.navbar-nav > li{
+	padding-left:10px;
+	padding-right:10px;
+  }
+
 
 .introduction {
 	font-family: "Comfortaa", cursive;
@@ -190,4 +195,33 @@ header {
 	  text-align: center;
 	  font-size: 18px;
 	  margin: 50px 0; }
+
+	  .arrow {
+		text-align: center;
+		width: 50px;
+		height: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+		position: relative;
+		top: 220px;
+	  }
+	  .bounce {
+		-moz-animation: bounce 2s infinite;
+		-webkit-animation: bounce 2s infinite;
+		animation: bounce 2s infinite;
+	  }
+	  
+	  @keyframes bounce {
+		0%, 20%, 50%, 80%, 100% {
+		  transform: translateY(0);
+		}
+		40% {
+		  transform: translateY(-30px);
+		}
+		60% {
+		  transform: translateY(-15px);
+		}
+	  }
   

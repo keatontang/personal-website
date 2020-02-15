@@ -23,7 +23,7 @@ raycaster.params.Points.threshold = 6;
 
 
 var camera = new THREE.PerspectiveCamera(50, width / height, 0.1, 2000);
-camera.position.set(-180, 60, 420);
+camera.position.set(-190, 40, 450);
 
 var galaxy = new THREE.Group();
 scene.add(galaxy);
@@ -248,3 +248,11 @@ $('.test, .nav-link, .navbar-brand, .new-button').click(function() {
       scrollTop: $(sectionTo).offset().top
     }, 1500);
 });
+
+//make scroll icon disappear on scroll
+// var myElement = $('.arrow');
+//        $(window).on('scroll', function () {
+//          var st = $(this).scrollTop();
+//          myElement.css({
+//             'opacity': 1 - st / 600
+//          });
