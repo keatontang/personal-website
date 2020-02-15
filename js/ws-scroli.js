@@ -233,7 +233,6 @@
         $.fn.WS_ScroLi.options = {
             validEnd : {
                 status      : true,
-                icon        : 'fas fa-check'
             },
             // validEnd : true,
             // validEndIcon : 'far fa-check',
@@ -245,22 +244,22 @@
                 size        : 30,
                 borderWidth : 1,
                 borderRadius: 100,
-                color       : 'orange',
-                colorPast   : 'green',
+                color       : '#ff8064',
+                colorPast   : '#64ffda',
                 colorOff    : '#ccd6f6'
             },
             line : {
                 height      : 30,
                 width       : 3,
-                color       : 'orange',
-                colorPast   : 'green',
+                color       : '#ff8064',
+                colorPast   : '#64ffda',
                 colorOff    : '#ccd6f6',
             },
             sections : [
-                [ '#anchor-1', 'fas fa-info' ],
-                [ '#anchor-2', 'fas fa-stream' ],
-                [ '#anchor-3', 'far fa-user' ],
-                [ '#anchor-4', 'fas fa-exclamation' ],
+                [ '#anchor-1'],
+                [ '#anchor-2'],
+                [ '#anchor-3'],
+                [ '#anchor-4'],
             ],
 
         };

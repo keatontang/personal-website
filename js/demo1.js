@@ -202,7 +202,6 @@ window.addEventListener("resize", function(){
 });
 
 //show/hide navbar js
-// Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
@@ -241,3 +240,11 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+//make navbar button scroll
+// Select all links with hashes
+$('.test, .nav-link, .navbar-brand, .new-button').click(function() {
+    var sectionTo = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(sectionTo).offset().top
+    }, 1500);
+});
