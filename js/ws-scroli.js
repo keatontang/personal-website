@@ -244,14 +244,14 @@
                 size        : 30,
                 borderWidth : 1,
                 borderRadius: 100,
-                color       : '#ff8064',
+                color       : '#6488ff',
                 colorPast   : '#64ffda',
                 colorOff    : '#ccd6f6'
             },
             line : {
                 height      : 30,
                 width       : 3,
-                color       : '#ff8064',
+                color       : '#6488ff',
                 colorPast   : '#64ffda',
                 colorOff    : '#ccd6f6',
             },

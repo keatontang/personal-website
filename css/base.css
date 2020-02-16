@@ -142,8 +142,8 @@ main {
 	display: block;
 	/* align-self: end; */
 	position: fixed;
-	bottom: 0;
-	left: 0;
+	top: 20;
+	left: 20;
 	grid-area: github;
 	justify-self: start;
 	color: #fff;
