@@ -142,7 +142,7 @@ main {
 	display: block;
 	/* align-self: end; */
 	position: fixed;
-	top: 20;
+	top: 10;
 	left: 20;
 	grid-area: github;
 	justify-self: start;
