@@ -93,7 +93,7 @@
                 // if after content all icons past
                 let scroll = $(window).scrollTop() + window.innerHeight;
                 let lastScroll = elems[elems.length-1].height() + elems[elems.length-1].offset().top;
-                // console.log( elems[elems.length-1].height() );
+
                 
                 if ( scroll > lastScroll ) {
                     app.find('[class^="item-"]').removeClass('current').addClass('past').css( returnIcon('past') )
