@@ -1,7 +1,6 @@
 var canvas = document.querySelector('canvas');
 var width = canvas.offsetWidth,
     height = canvas.offsetHeight;
-    console.log(canvas.offsetWidth, canvas.offsetHeight,)
 
 var colors = [
     new THREE.Color(0x64ffda),
