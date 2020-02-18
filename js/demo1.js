@@ -242,6 +242,7 @@ function hasScrolled() {
 //make navbar button scroll
 // Select all links with hashes
 $('.test, .nav-link, .navbar-brand, .new-button').click(function() {
+    $(document).singlePageNav({filter: ':not(.external)'});
     var sectionTo = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(sectionTo).offset().top
