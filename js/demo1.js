@@ -22,7 +22,7 @@ raycaster.params.Points.threshold = 6;
 
 
 var camera = new THREE.PerspectiveCamera(50, width / height, 0.1, 2000);
-camera.position.set(-190, 30, 450);
+camera.position.set(-200, 10, 450);
 
 var galaxy = new THREE.Group();
 scene.add(galaxy);
