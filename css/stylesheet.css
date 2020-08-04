@@ -93,8 +93,21 @@ header {
   line-height: 20pt;
 }
 
+footer {
+  position: fixed;
+  font-family: "Montserrat", serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #8892b0;
+  text-align: center;
+}
+
 body {
   font-family: "Muli", sans-serif;
+  background-color: #0a192f;
 }
 body #header {
   height: 1000px;
