@@ -5,66 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Keaton Tang</title>
 	<meta name="description" content="I like to build things." />
-	<meta name="keywords" content="webgl, background, shape, web design, web development, tweenmax, gsap, animation, keaton, keaton-tang, keaton.tang, keaton tang" />
+	<meta name="keywords" content="webgl, background, shape, web design, web development, software, software engineer, architecture, aws, animation, keaton, keaton-tang, keaton.tang, keaton tang" />
 	<meta name="author" content="Keaton Tang" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-	<script
-  src="https://code.jquery.com/jquery-3.4.1.slim.js"
-  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
-  crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
-	<script src="js/ws-scroli.js"></script>
-	<!-- <script src="js/script.js"></script> -->
 	<link rel="icon" href="img/code-html-tag-icon-html-element-png-512_512.png">
-	<!-- <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,700|Playfair+Display" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo1.css" />
-	<link rel="stylesheet" type="text/css" href="pater/pater.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.scss" />
-	<link rel="fonts" href="">
-	<link href="nav-icon.css" rel="stylesheet">
-	<!-- <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script> -->
-
-	<!-- JS for scroll progress indicator -->
 
 <body class="demo-1 flex-center-wrapper flex-column">
-<svg class="hidden">
-	
-	<symbol id="icon-github" viewBox="0 0 32.6 31.8">
-		<title>github</title>
-		<path d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"/>
-	</symbol>
-		
-		<!-- https://thenounproject.com/term/keyboard/783/ by Paul te Kortschot from the Noun Project -->
-		<path d="M 60.94,1.83 39.22,1.83 C 36.71,1.83 34.67,3.86 34.67,6.376 L 34.67,28.1 C 34.67,30.61 36.71,32.65 39.22,32.65 L 60.94,32.65 C 63.45,32.65 65.5,30.61 65.5,28.1 L 65.5,6.376 C 65.5,3.86 63.45,1.83 60.94,1.83 Z M 44.79,18.63 50.08,11.74 55.37,18.63 Z" opacity="0.2"/>
-		<path d="M 60.86,36.75 39.14,36.75 C 36.63,36.75 34.59,38.79 34.59,41.3 L 34.59,63.02 C 34.59,65.53 36.63,67.57 39.14,67.57 L 60.86,67.57 C 63.38,67.57 65.41,65.53 65.41,63.02 L 65.41,41.3 C 65.42,38.79 63.38,36.75 60.86,36.75 Z M 50.08,57.45 44.79,50.55 55.37,50.55 Z" opacity="0.2" />
-		<path d="M 95.45,36.75 73.73,36.75 C 71.22,36.75 69.18,38.79 69.18,41.3 L 69.18,63.02 C 69.18,65.53 71.22,67.57 73.73,67.57 L 95.45,67.57 C 97.97,67.57 100,65.53 100,63.02 L 100,41.3 C 100,38.79 97.97,36.75 95.45,36.75 Z M 83.4,57.45 83.4,46.86 90.3,52.16 Z" />
-		<path d="M 26.27,36.75 4.55,36.75 C 2.037,36.75 0,38.79 0,41.3 L 0,63.02 C 0,65.53 2.037,67.57 4.55,67.57 L 26.27,67.57 C 28.78,67.57 30.82,65.53 30.82,63.02 L 30.82,41.3 C 30.82,38.79 28.78,36.75 26.27,36.75 Z M 16.69,57.45 9.79,52.16 16.69,46.86 Z" />
-	</symbol>
-</svg>
 <main>
-<!-- 	
-	<header class="navbar navbar-expand-lg navbar-dark nav-down" style="background-color:#0a192f;">
-		<!-- <a class="navbar-brand" href="#">KT</a> -->
 		<div class="collapse navbar-collapse" id="navbarNav">
 		  <ul class="navbar-nav nav ml-auto">
-			  <!-- <!-- <a class="nav-link" href="#WS-SL--content"> <span style="color: #64ffda;">01.  </span>   About <span style="color: #0a192f;">ye</span></a> -->
-			  <!-- <a class="nav-link" href="#about"><span style="color: #64ffda;">02.</span>   Projects<span style="color: #0a192f;">ye</span></a> -->
-	
-			  <!-- <a href="https://www.linkedin.com/in/keaton-tang/"><ion-icon name="logo-linkedin" size = "large"></ion-icon></a> -->
-			  <!-- <a class="nav-link" href="#contact"><span style="color: #64ffda;">03.  </span>   Contact Me<span style="color: #0a192f;">ye</span></a> -->
-			<!-- <a class="btn" href="/keaton_resume.pdf"type="button btn-primary" style="color: #64ffda; outline-color:#64ffda; border-color: #64ffda;">Resume</a> -->
 		  </ul>
 		</div>
 	</header>
 	<div class="content--fixed">
 		<a class="github" href="https://github.com/keatontang/" title="Find me on GitHub"><ion-icon name="logo-github" size="large"></ion-icon></a>
-		<a href="https://www.linkedin.com/in/keaton-tang/"><ion-icon name="logo-linkedin" size = "large" style="margin-top:50px;"></ion-icon></a>
+		<a href="https://www.linkedin.com/in/keaton-tang/" title="Find me on LinkedIn"><ion-icon name="logo-linkedin" size = "large" style="margin-top:50px;"></ion-icon></a>
 	</div>
 	<div class="content">
 		<div></div>
@@ -101,83 +60,14 @@
 			at <a href="https://www.monash.edu/">Monash University.</a><br>
 			<a class="btn btn-lg" href="mailto:keaton.tang@gmail.com"type="button" style="color: #64ffda; outline-color:#64ffda; border-color: #64ffda; position: relative; top: 100px;">Get In Touch</a>
 		</div>
-		
-		
-		<!-- <img class="arrow bounce" src="img/unnamed.png"> -->
-	</div>
-	<!-- <div id="WS-SL--content">
-		<h2 class="section-header" style="left:220px;" id="second"> <span style="color:#64ffda;">01. </span> About Me<hr class="text-line"></h2>
-		<div class="section-details">
-			Hey! I'm Keaton, a developer and CS student in my<br>
-			penultimate year of study. I like to develop things<br>
-			in my spare time — more recently I've focused on<br>
-			web development.<br>
-			<br>
-			Here's a few technologies i've been working with recently:
-			<div>
-				<br>
-				<ul class="bullet-list" style="font-family: Comfortaa; font-weight: 300;">
-					<li class="list-element">JavaScript</li>
-					<li class="list-element">MongoDB</li>
-					<li class="list-element">Python</li>
-					<li class="list-element">Node.js</li>
-					<li class="list-element">Java</li>
-					<li class="list-element">Linux</li>
-				</ul>
-			</div>
-		</div>
-		<div style="height:400px; background-color:#0a192f"></div>
-		<div id="about"></div>
-		<h2 class="section-header" style="left:220px; " id="second"> <span style="color:#64ffda;">02. </span> Personal Projects<hr class="text-line" style="left:-15%"></h2>
-		<div class="card card-1" style="left:50%; top: 200px; padding: 20px;">
-			PigeonPost is a full-stack web app similar to Twitter.
-			Users are able to anonymously post short messages or follow other users and see a personalized feed.<br>
-		</div>
-		<a href="http://www.pigeonpost.club" class="external"><img class="card card-1 pigeonpost" style="left:-24%; top: 170px; height: 350px; width: 600px; z-index: 50;" src="img/Screen Shot 2020-02-18 at 5.38.25 pm.png" alt=""></a>
-		<div class="introduction" style="left:75%; top: -160px;">Featured Project</div>
-		<h2 class="section-header external" style="left:72.5%; top: -160px;">
-			<a href="http://www.pigeonpost.club">PigeonPost</a>
-		</h2>
-		<div class="section-details" style="left:62%; top: 0px; word-spacing: 10px; color: #333f58;">Linux Apache MariaDB PHP HTML</div>
-		<a style="left: 34.5%; top: 23px; position: relative;" class="github" href="https://github.com/keatontang/lampstack" title="Find this on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
-		<!-- <a class="btn btn-lg" href="https://github.com/keatontang/" type="button" style="color: #64ffda; outline-color:#64ffda; border-color: #64ffda; position: relative; top: 150px; left: 45%;">BUTTON</a> -->
-		<!-- <div id="projects" style="height:400px; background-color:#0a192f"></div>
-		<h2 class="section-header" style="left:32.5%; font-size: 4em;" id="second"> Get In Touch</h2>
-		<div id="contact" class="introduction" style="left:39.5%; top: 30px;">03. Contact Information</div>
-		<div class="section-details" style="text-align: center; left: -3%;">
-			If you'd like to work with me on a project or ask<br>
-			me a question, feel free to contact me below!<br>
 
-			<a class="btn btn-lg" href="mailto:keaton.tang@gmail.com"type="button" style="color: #64ffda; outline-color:#64ffda; border-color: #64ffda; position: relative; top: 100px;">What's on your mind?</a>
-		</div>
-		<!-- <section id="contact"style="height:600px; background-color:#0a192f"></section> -->
-        <!-- <section id="d4" style="height:500px; background-color:#0a192f"></section>
-    </div> --> 
-
-<!-- 
-    <script src="js/ws-scroli.js"></script>
-
-    <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script> -->
+</script>
 </main>
 <script src="js/demo.js"></script>
 <script src="js/three.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
-<script src="js/demo1.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+<script src="js/three.js"></script>
+
 <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
